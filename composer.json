@@ -1,0 +1,17 @@
+{
+    "name": "finalsmile6868/repository",
+    "description": "repository for laravel and lumen",
+    "autoload": {
+        "psr-4": {
+            "Finalsmile6868\\Repository\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Finalsmile6868",
+            "email": "Finalsmile6868@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
