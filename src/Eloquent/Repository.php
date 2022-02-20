@@ -344,4 +344,8 @@ abstract class Repository implements RepositoryInterface, CriteriaInterface
 
         return $this;
     }
+
+    public function resetCriteria(){
+        $this->criteria = collect([]);
+    }
 }
